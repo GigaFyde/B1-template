@@ -53,9 +53,9 @@ h1{
   margin: 0;
   font-family: 'Heartbeat';
   color: #27AE60;
-  text-shadow: 
+  text-shadow:
     3px 3px 0 #FCFCFC,
-    -1px -1px 0 #FCFCFC,  
+    -1px -1px 0 #FCFCFC,
     1px -1px 0 #FCFCFC,
     -1px 1px 0 #FCFCFC,
     1px 1px 0 #FCFCFC;
@@ -208,7 +208,10 @@ footer{
     align-items: center;
   }
 }
-
+.row{
+  display: flex;
+  flex-direction: row;
+}
 /*
   help! Het lettertype wordt om een of andere reden niet goed geladen... Misschien heeft het iets met het pad naar de fonts te maken?
 */
